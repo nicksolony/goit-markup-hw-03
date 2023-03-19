@@ -52,6 +52,11 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--filter-btn-bg-active-color);
 }
 
+.menu-item.current {
+    text-decoration: underline;
+}
+
+
 .logo {
     font-size: 18px;
     font-family: "Raleway",sans-serif;
