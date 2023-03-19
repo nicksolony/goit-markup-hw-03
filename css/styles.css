@@ -31,7 +31,7 @@ body {
 }
 
 /* remove top and bottom margins for all headers */
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,p {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -46,7 +46,7 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--heading-color-2);
 }
 
-.logo.link, .nav-item {
+header .logo.link, .nav-item {
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -265,10 +265,24 @@ header {
 /* footer */
 .footer {
     background-color: var(--heading-color-2);
+   
+}
+
+.footer .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer .logo {
+    margin-bottom: 16px;
+    margin-right: 0;
 }
 
 .logo .footer-logo {
-    color:var(--filter-btn-bg-color)
+    color:var(--filter-btn-bg-color);
 }
 
 .footer p {
