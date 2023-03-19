@@ -270,7 +270,6 @@ header {
 /* footer */
 .footer {
     background-color: var(--heading-color-2);
-   
 }
 
 .footer .container {
@@ -297,7 +296,19 @@ header {
 
 /* PORTFOLIO HTML STYLING */
 /* adding styling to filter buttons */
+
+.portfolio.container{
+    flex-direction: column;
+    padding-top: 96px;
+}
+
 .filter {
+    display: flex;
+    margin-bottom: 72px;
+    justify-content: center;
+}
+
+.filter-button {
     background-color:var(--filter-btn-bg-color);
     color: var(--filter-btn-color);
     font-family: "Roboto",sans-serif;
@@ -306,10 +317,16 @@ header {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    margin-right: 24px;
+    border-radius: 4px;
+    border: 0;
+    padding: 12px 24px;
 }
 
-.filter:hover,
-.filter:focus
+
+
+.filter-button:hover,
+.filter-button:focus
 {
     background-color: var(--filter-btn-bg-active-color);
     color: var(--filter-btn-active-color);
