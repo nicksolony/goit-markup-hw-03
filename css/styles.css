@@ -245,8 +245,6 @@ header {
 /* section 3 - services */
 
 .services {
-    flex-wrap: wrap;
-    justify-content: space-around;
     padding-top: 0;
 }
 
@@ -264,8 +262,16 @@ header {
 
 }
 
+.services-item {
+    width: calc((100%-48px)/3);
+}
+
 .services-item:not(:last-child) {
     margin-right: 24px;
+}
+
+.services-item img {
+    display: block;
 }
 
 /* section 4 - Team */
