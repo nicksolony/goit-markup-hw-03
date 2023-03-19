@@ -61,9 +61,9 @@ header .logo.link, .nav-item .link {
     color: var(--filter-btn-bg-active-color);
 }
 
-.menu-item.current {
+/* .menu-item.current {
     text-decoration: underline;
-}
+} */
 
 
 .logo {
