@@ -46,9 +46,10 @@ h1,h2,h3,h4,h5,h6,p {
     color: var(--heading-color-2);
 }
 
-header .logo.link, .nav-item {
+header .logo.link, .nav-item .link {
     padding-top: 24px;
     padding-bottom: 24px;
+    display: block;
 }
 
 .nav-item:not(:last-child){
