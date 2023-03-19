@@ -1,0 +1,209 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--p-font-color);
+    font-size: 16px;
+    line-height: 1.5em;
+    
+}
+
+:root {
+    --filter-btn-color: #4D5AE5;
+    --filter-btn-bg-color: #F4F4FD;
+    --filter-btn-active-color: #FFFFFF;
+    /* OCEAN */
+    --filter-btn-bg-active-color: #404BBF;
+    /* IRIS */
+    --heading-color-1: #4D5AE5; 
+    /* NAVY */
+    --heading-color-2: #2E2F42;
+    /* SLATE */
+    --p-font-color: #434455;
+    
+}
+
+
+.list {
+    list-style: none;
+}
+
+.menu-item {
+    font-weight: 500;
+    font-size:16px;
+    letter-spacing: 0.02em;
+    color: var(--heading-color-2);
+}
+
+.menu-item:hover,
+.menu-item:focus {
+    color: var(--filter-btn-bg-active-color);
+}
+
+.logo {
+    font-size: 18px;
+    font-family: "Raleway",sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    /* text-decoration: none; */
+    letter-spacing: 0.03em;
+    text-align: center;
+    line-height: 1.17;
+    color: var(--heading-color-1);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo a:visited {
+    color: var(--heading-color-1);
+}
+
+/* .logo a {
+    color: var(--heading-color-1);
+} */
+
+.logo span {
+    color:var(--heading-color-2)
+}
+
+.logo span:hover,
+.logo span:focus {
+    color: var(--heading-color-1);
+}
+
+
+/* hiding h2s */
+.hidden {
+    display: none;
+}
+
+
+.contact {
+    font-style: normal;
+}
+
+.email {
+    letter-spacing: 0.02em;
+    color: var(--p-font-color);
+}
+
+.email:hover,
+.email:focus {
+    color:var(--filter-btn-bg-active-color);
+}
+
+/* INDEX.HTML styling */
+
+
+/* first section */
+/* h1 tag */
+.top-section {
+    background-color: var(--heading-color-2);
+}
+
+.header-top {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;
+
+}
+
+/* button */
+.order-button {
+    background-color: var(--heading-color-1);
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing:0.04em;
+    cursor: pointer;
+
+}
+
+.order-button:hover,
+.order-button:focus
+{
+    background-color: var(--filter-btn-bg-active-color);
+    color: #FFFFFF;
+}
+
+/* SECTION 2 - VALUES */
+.header-items {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing:0.02em; 
+    color: var(--heading-color-2);  
+}
+
+.desc {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing:0.02em;
+    color:var(--p-font-color);
+}
+
+/* section 3 - services */
+.header-subject {
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--heading-color-2);
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+/* section 4 - Team */
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-member {
+    background-color: #FFFFFF;
+}
+
+.team-member .header-items,
+.team-member .desc {
+    text-align: center;
+}
+
+
+/* footer */
+.footer {
+    background-color: var(--heading-color-2);
+}
+
+.logo .footer-logo {
+    color:var(--filter-btn-bg-color)
+}
+
+.footer p {
+    color: #e7e9fc;
+    letter-spacing: 0.02em;
+}
+
+/* PORTFOLIO HTML STYLING */
+/* adding styling to filter buttons */
+.filter {
+    background-color:var(--filter-btn-bg-color);
+    color: var(--filter-btn-color);
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.filter:hover,
+.filter:focus
+{
+    background-color: var(--filter-btn-bg-active-color);
+    color: var(--filter-btn-active-color);
+}
