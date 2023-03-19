@@ -61,9 +61,10 @@ header .logo.link, .nav-item .link {
     color: var(--filter-btn-bg-active-color);
 }
 
-/* .menu-item.current {
-    text-decoration: underline;
-} */
+.menu-item.current {
+    /* text-decoration: underline; */
+    color: var(--filter-btn-color);
+}
 
 
 .logo {
