@@ -27,6 +27,9 @@ body {
     list-style: none;
 }
 
+/* INDEX.HTML styling */
+
+/* HEADER */
 .menu-item {
     font-weight: 500;
     font-size:16px;
@@ -59,9 +62,7 @@ body {
     color: var(--heading-color-1);
 }
 
-/* .logo a {
-    color: var(--heading-color-1);
-} */
+
 
 .logo span {
     color:var(--heading-color-2)
@@ -93,7 +94,13 @@ body {
     color:var(--filter-btn-bg-active-color);
 }
 
-/* INDEX.HTML styling */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 
 
 /* first section */
