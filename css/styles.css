@@ -27,6 +27,12 @@ body {
     list-style: none;
 }
 
+/* remove top and bottom margins for all headers */
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /* INDEX.HTML styling */
 
 /* HEADER */
@@ -52,6 +58,7 @@ body {
     text-align: center;
     line-height: 1.17;
     color: var(--heading-color-1);
+    margin-right: 5.2778%;
 }
 
 .link {
@@ -96,11 +103,20 @@ body {
 
 .container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    width: 78.3333%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.nav-items {
+    display: flex;
+    align-items: center;
+}
 
+.list.nav-items {
+    padding-left: 0;
+}
 
 
 /* first section */
