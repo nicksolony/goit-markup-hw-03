@@ -235,6 +235,10 @@ header {
 
 }
 
+.services-item:not(:last-child) {
+    margin-right: 24px;
+}
+
 /* section 4 - Team */
 
 .team {
