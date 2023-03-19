@@ -89,6 +89,9 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--heading-color-1);
 }
 
+header {
+    border-bottom: 1px solid #E7E9FC;
+}
 
 /* hiding h2s */
 .hidden {
