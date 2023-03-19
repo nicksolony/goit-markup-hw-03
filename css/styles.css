@@ -243,6 +243,13 @@ header {
 
 .team {
     background-color: #F4F4FD;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team .list {
+    display: flex;
+    justify-content: space-between;
 }
 
 .team-member {
