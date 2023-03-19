@@ -262,6 +262,10 @@ header {
     text-align: center;
 }
 
+.team-member img {
+    margin-bottom: 36px;
+}
+
 
 /* footer */
 .footer {
