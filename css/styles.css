@@ -19,6 +19,8 @@ body {
     --heading-color-2: #2E2F42;
     /* SLATE */
     --p-font-color: #434455;
+    /* corn-flower */
+    --border-color: #E7E9FC;
     
 }
 
@@ -100,7 +102,7 @@ header .logo.link, .nav-item .link {
 }
 
 header {
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid var(--border-color);
 }
 
 /* hiding h2s */
@@ -331,7 +333,7 @@ header {
 }
 
 .footer p {
-    color: #e7e9fc;
+    color:var(--border-color);
     letter-spacing: 0.02em;
     width: 264px;
 }
@@ -339,9 +341,9 @@ header {
 /* PORTFOLIO HTML STYLING */
 /* adding styling to filter buttons */
 
-.portfolio.container{
-    flex-direction: column;
+.portfolio  {
     padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .filter {
@@ -349,6 +351,13 @@ header {
     margin-bottom: 72px;
     justify-content: center;
 }
+
+
+
+.filter-item:not(:last-child) {
+    margin-right: 24px;
+}
+
 
 .filter-button {
     background-color:var(--filter-btn-bg-color);
@@ -359,12 +368,10 @@ header {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    margin-right: 24px;
     border-radius: 4px;
-    border: 0;
+    border: 1px solid var(--border-color);
     padding: 12px 24px;
 }
-
 
 
 .filter-button:hover,
@@ -372,17 +379,22 @@ header {
 {
     background-color: var(--filter-btn-bg-active-color);
     color: var(--filter-btn-active-color);
+    border-color: transparent;
 }
 
 .portfolio-items {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 120px;
 }
 
 .portfolio-item {
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid var(--border-color);
     margin-bottom: 48px;
+    width: calc((100%-48px)/3);
+}
+
+.portfolio-item img {
+    display: block;
 }
 
 .portfolio-item:not(:nth-child(3n)) {
