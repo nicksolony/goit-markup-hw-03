@@ -276,9 +276,6 @@ header {
     margin-right: 24px;
 }
 
-.services-item img {
-    display: block;
-}
 
 /* section 4 - Team */
 
@@ -388,13 +385,16 @@ header {
 }
 
 .portfolio-item {
-    border-bottom: 1px solid var(--border-color);
+    /* border-bottom: 1px solid var(--border-color); */
     margin-bottom: 48px;
-    width: calc((100%-48px)/3);
+    width: calc((100% -  48px)/3);
 }
 
+.services-item img,
 .portfolio-item img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .portfolio-item:not(:nth-child(3n)) {
@@ -405,6 +405,16 @@ header {
     margin-bottom: 0;
 }
 
+.portfolio-link {
+    display: block;
+}
+
+.portfolio-item-info {
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    
+}
 /* .portfolio-item .header-items,
 .portfolio-item .desc {
     padding-left: 16px;
