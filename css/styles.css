@@ -237,8 +237,8 @@ header {
     color:var(--p-font-color);
 }
 
-.team-member .desc,
-.portfolio-item .desc {
+.team-member,
+.portfolio-item {
     padding-bottom: 32px;
 }
 
@@ -278,17 +278,20 @@ header {
 
 .team {
     background-color: #F4F4FD;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .team .list {
     display: flex;
-    justify-content: space-between;
 }
 
 .team-member {
     background-color: #FFFFFF;
+    width: calc((100%-72px)/4);
+    border-radius: 0 0 4px 4px;
+}
+
+.team-member:not(:last-child) {
+    margin-right: 24px;
 }
 
 .team-member .header-items,
