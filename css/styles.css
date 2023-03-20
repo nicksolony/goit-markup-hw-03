@@ -314,10 +314,9 @@ header {
     background-color: var(--heading-color-2);
 }
 
-.footer .container {
+.footer-container {
     padding-top: 100px;
     padding-bottom: 100px;
-
     flex-direction: column;
     align-items: flex-start;
 }
@@ -334,6 +333,7 @@ header {
 .footer p {
     color: #e7e9fc;
     letter-spacing: 0.02em;
+    width: 264px;
 }
 
 /* PORTFOLIO HTML STYLING */
