@@ -237,7 +237,10 @@ header {
     color:var(--p-font-color);
 }
 
-.team-member,
+.team-member-info {
+    padding: 32px 0;
+}
+
 .portfolio-item {
     padding-bottom: 32px;
 }
@@ -299,10 +302,10 @@ header {
     text-align: center;
 }
 
-.team-member img,
+/* .team-member img,
 .portfolio-item img {
     margin-bottom: 32px;
-}
+} */
 
 
 /* footer */
