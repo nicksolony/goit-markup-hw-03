@@ -237,12 +237,13 @@ header {
     color:var(--p-font-color);
 }
 
-.team-member-info {
+.team-member-info,
+.portfolio-item-info {
     padding: 32px 0;
 }
 
-.portfolio-item {
-    padding-bottom: 32px;
+.portfolio-item-info {
+    padding-left: 16px;
 }
 
 /* section 3 - services */
@@ -392,7 +393,7 @@ header {
     margin-bottom: 0;
 }
 
-.portfolio-item .header-items,
+/* .portfolio-item .header-items,
 .portfolio-item .desc {
     padding-left: 16px;
-}
+} */
